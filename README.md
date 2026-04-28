@@ -102,7 +102,7 @@ destination:/game/updates
 
 ---
 
-## ✅ Features
+##  Features
 
 - User login/logout
 - SUBSCRIBE/UNSUBSCRIBE to topics (games)
