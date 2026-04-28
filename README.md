@@ -1,24 +1,24 @@
 # Assignment 3 - SPL251  
 ## Emergency Service Platform (STOMP Protocol)
 
-### 🧑‍💻 Authors  
+###  Authors  
 - Maia Barber  
 - Yuval Pariente  
 
 ---
 
-## 🧠 Overview  
+##  Overview  
 This project implements a fully functional emergency messaging platform using the STOMP protocol.  
 It contains:
 
-- 🔌 Java-based STOMP Server  
-- 💬 C++ STOMP Client with multi-threaded support  
-- 🧵 TPC & Reactor server models  
-- 📢 Support for SUBSCRIBE, SEND, DISCONNECT, etc.
+-  Java-based STOMP Server  
+-  C++ STOMP Client with multi-threaded support  
+-  TPC & Reactor server models  
+-  Support for SUBSCRIBE, SEND, DISCONNECT, etc.
 
 ---
 
-## 🧩 Project Structure
+##  Project Structure
 Assignment3/  
 ├── server/  
 │   ├── src/  
@@ -35,9 +35,9 @@ Assignment3/
 
 ---
 
-## 🚀 Running the Project
+##  Running the Project
 
-### 🛠️ Server (Java)
+###  Server (Java)
 
 #### Compile:
 ```bash
@@ -54,7 +54,7 @@ mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer" -Dexec.args=
 
 ---
 
-### 🧑‍💻 Client (C++)
+###  Client (C++)
 
 #### Compile:
 ```bash
@@ -74,14 +74,14 @@ For example:
 
 ---
 
-### 📂 events/ folder
+###  events/ folder
 
 The `events/` directory contains sample JSON files representing game-related events.
 These can be used as input when sending messages from the client to the server.
 
 ---
 
-## 💾 Requirements
+##  Requirements
 
 - Java 11+
 - Maven 3.6+
@@ -90,7 +90,7 @@ These can be used as input when sending messages from the client to the server.
 
 ---
 
-## 📄 Example STOMP Frame
+##  Example STOMP Frame
 
 ```text
 SEND
